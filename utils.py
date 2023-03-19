@@ -40,7 +40,7 @@ def plot_closest_imgs(anc_img_names, DATA_DIR, image, img_path, closest_idx, dis
         a = plt.axes([xa-p2,ya-p2, piesize, piesize])
         a.set_aspect('equal')
         a.imshow(G.nodes[n]['image'])
-        a.set_title(S_name[n][0:7])
+        a.set_title(S_name[n][0:8])
         a.axis('off')
     ax.axis('off')
     plt.show()
