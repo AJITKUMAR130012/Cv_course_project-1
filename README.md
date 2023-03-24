@@ -8,7 +8,8 @@
 
 **Approach:**
 1. Get the encoding of image using **EfficientNet** model. <br />
-2. Then use the euclidean distance to measure the similarity between two images and use the triplet loss to get the match pair. <br/>
+2. Then use the euclidean distance to measure the similarity between two images.<br/>
+3. Use triplet loss to get the match pair. <br/>
 
 **Output:**<br/>
 1. After the traning, we got the accuracy on the validation data as 92 percent.<br/>
